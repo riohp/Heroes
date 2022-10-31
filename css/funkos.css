@@ -2,12 +2,41 @@
     background: #40484d;
 }
 
+@media (min-width:320px){
+   
+    
+    #centra_ico{
+        margin-left: 1em;
+    }
+}
+@media(min-width:375px){
+   
+    #centra_ico{
+        margin-left: 4em;
+    }
+}
 
 @media(min-width:425px){
     #footer_cen{
-        margin-left: 3em;
+        margin-left: 1em;
     }
     #centra_ico{
-        margin-left: 3em;
+        margin-left: 5em;
+    }
+} 
+
+@media(min-width:768px){
+   
+    #centra_ico{
+        margin-left: 25em;
+        margin-bottom: 1em;
+    }
+}
+
+@media(min-width:1024px){
+   
+    #centra_ico{
+        margin-left: 35em;
+        margin-bottom: 1em;
     }
 }
