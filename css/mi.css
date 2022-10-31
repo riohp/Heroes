@@ -1,0 +1,77 @@
+body{
+}
+
+.contenedor{
+    background-image: url(../img/The-Batman-4k-Wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.centro{
+    padding-top: 4em;
+}
+
+.imgbc{
+    transition: 1s;
+    
+    
+}
+.imgbc:hover{
+    width: 430px;
+    height: 270px;
+    border: 1px;
+    border-radius: 1PX;
+}
+
+#bordervi{
+    border-width: 50;
+    border-top: 1px solid white;
+}
+.navbar{
+    background: #40484d;
+}
+
+
+@media (min-width:320px) and (max-width:767px){
+    .video{
+        width: 80%;
+        margin-left: 2em;
+    }
+    
+
+
+    #footer_cen{
+        margin-left: 2em;
+        margin-right: 1em;
+    }
+    #centra_ico{
+        margin-left: 4em;
+    }
+
+    #footer_cen{
+        margin-left: 1em;
+        margin-right: 0em;
+    }
+}
+@media (min-width:767px) and (max-width:1024px){
+    .video{
+        margin-left: 3em;
+    }
+
+    
+}
+
+@media(min-width:425px){
+    #footer_cen{
+        margin-left: 3em;
+    }
+    #centra_ico{
+        margin-left: 5em;
+    }
+    .video{
+        
+        margin-left: 2.5em;
+    }
+}
+
+

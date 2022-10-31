@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Trirong:ital,wght@0,300;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Trirong:ital,wght@0,300;1,200&display=swap');
+:root {
+    --fuente2: 'Oswald', sans-serif;
+    --fuente:'Trirong', serif;
+
+}
+.fuente2{
+    font-family: var(--fuente2);
+}
+
+.fuente{
+    font-family: var(--fuente);
+}

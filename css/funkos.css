@@ -1,0 +1,13 @@
+.navbar{
+    background: #40484d;
+}
+
+
+@media(min-width:425px){
+    #footer_cen{
+        margin-left: 3em;
+    }
+    #centra_ico{
+        margin-left: 3em;
+    }
+}
